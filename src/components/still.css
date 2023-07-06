@@ -1,0 +1,284 @@
+body{
+  background-image: url('./images/bg5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+
+
+.navbar_general{
+    width: 100%;
+    height: 40px;
+    background-color: #262626;
+    
+ 
+
+}
+.navbar_img{
+   height: 100%;
+   float: left;
+}
+.navbar_button{
+    height: 80%;
+    float: right;
+   margin: 4px 6px 0 0 ;
+   border-radius: 5px 5px;
+   color: white;
+   background-color: rgba(0, 0, 0, 0.2);
+    
+}
+.navbar_button:hover{
+    background-color: red;
+}
+
+.profile_img{
+    float: right;
+    height: 100%;
+    border-radius: 20px 20px;
+}
+
+.table{
+    width: 30%;
+    height: 400px;
+    border: 1px solid black;
+    margin: 0 0 0 15px;
+    border-radius: 10px;
+    background-color: rgb(245, 244, 244);
+    overflow-y: auto;
+    float: right;
+  
+ 
+}
+.carousel-item img {
+    height: 400px;
+
+}
+.table_news{
+    width: 95%;
+    height: 85px;
+    background-color: white;
+    margin: 10px auto;
+    border: 1px solid gray;
+    border-radius: 5px 5px;
+    
+
+  }
+  .table_news img{
+    height: 100%;
+    width: 100px;
+    border-radius: 5px 5px;
+    float: left;
+
+
+
+  }
+.table_news_desc{
+    height: 100%;
+    width: 260px;
+    font-size: 13px;
+    font-weight: bold;
+
+ 
+}
+.routenav_general {
+    background-color: #333;
+    overflow: hidden;
+    margin: 5px 0;
+  }
+  
+  .routenav_general ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  .routenav_general li {
+    float: left;
+  }
+  
+  .routenav_general li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .routenav_general li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .routenav_general li:hover #pages {
+    display: block;
+  }
+  
+  #pages {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    width: 130px;
+
+
+    z-index: 1;
+  }
+  #pages li{
+    width: 100%;
+  }
+  
+  #pages li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  #pages li a:hover {
+    background-color: #111;
+  }
+  
+  .routenav_general li:last-child {
+    border-right: none;
+    float: right;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .routenav_general li:not(:first-child) {
+      display: none;
+    }
+    .routenav_general li:last-child {
+      display: inline-block;
+      float: none;
+    }
+    .routenav_general li:last-child {
+      border-right: 1px solid #fff;
+    }
+    .routenav_general li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+  
+  
+  
+  }
+.weather_general{
+    width: 95%;
+    height: 100%;
+    border: 1px solid black;
+    margin: 5px 0;
+    border-radius: 10px 10px;
+    position: relative;
+    background-image: url('./images/cloud.jpg');
+    
+}
+.weather_img{
+    font-size: 80px;
+   
+}
+.weather_status{
+
+}
+.weather_location{
+
+}
+.weather_degree{
+font-size: 40px;
+}
+.weather_next_general{
+  display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 45%;
+ 
+}
+.weather_next{
+  border: 1px solid black;
+    box-sizing: border-box;
+    
+    
+
+}
+
+.weather_next p{
+display: inline-block;
+height: 10px;
+}
+.l{
+  float: left;
+}
+.r{
+  float: right;
+}
+
+.col a{
+    text-decoration: none;
+}
+
+.currency_general {
+  height: 462px;
+  border: 1px solid black;
+  margin: 0 0 0 15px;
+  border-radius: 10px;
+  background-color: rgb(245, 244, 244);
+  overflow-y: auto;
+  background-image: url('./images/currency.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+.currency_status {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  
+}
+
+.currency_status_l {
+  flex-grow: 0;
+  font-weight: bold;
+}
+
+.currency_status_r {
+  flex-grow: 0;
+color: red;
+font-weight: bold;
+}
+
+.pp_l{
+height: 400px;
+width: 38%;
+border: 1px solid black;
+border-radius: 40px 40px;
+float: left;
+}
+
+.pp_r{
+width: 62%;
+height: 400px;
+float: right;
+border-radius: 40px 40px;
+align-items: center;
+}
+
+.pp_img{
+border-radius: 40px 40px;
+width: 100%;
+height: 100%;
+}
+.pp_bottom{
+ 
+  width: 100%;
+  height: 40px;
+  font-size: 30px;
+  text-align: center;
+}
