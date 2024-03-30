@@ -1,3 +1,8 @@
 [build]
   command = "npm run build"
-  ignore = "eslint src" # ESLint uyarılarını görmezden gelmek için bu satırı ekleyin
+  commandOrigin = "config"
+  publish = "/opt/build/repo/build"
+  publishOrigin = "ui"
+
+[context.production.environment]
+  CI = "false"
