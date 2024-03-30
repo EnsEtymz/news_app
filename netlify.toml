@@ -1,0 +1,3 @@
+[build]
+  command = "npm run build"
+  ignore = "eslint src" # ESLint uyarılarını görmezden gelmek için bu satırı ekleyin
