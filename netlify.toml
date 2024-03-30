@@ -1,7 +1,7 @@
 [build]
   command = "npm run build"
   commandOrigin = "config"
-  publish = "/build"
+  publish = "build"
   publishOrigin = "ui"
 
 [context.production.environment]
